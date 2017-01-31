@@ -1,7 +1,7 @@
 Swipebox
 ================================
 
-A touchable jQuery lightbox.
+A touchable jQuery lightbox with added events.
 
 [View project page](http://brutaldesign.github.com/swipebox)
 
