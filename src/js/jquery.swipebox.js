@@ -1,4 +1,4 @@
-/*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+/*! Swipebox v1.5.0 | IdeiT ideit.es | MIT License | github.com/IdeiT/swipebox-events */
 
 ;( function ( window, document, $, undefined ) {
 
