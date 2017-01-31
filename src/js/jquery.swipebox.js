@@ -24,7 +24,8 @@
 				loopAtEnd: false,
 				autoplayVideos: false,
 				queryStringData: {},
-				toggleClassOnLoad: ''
+				toggleClassOnLoad: '',
+				afterSetSlide: null
 			},
 
 			plugin = this,
@@ -624,6 +625,10 @@
 				} else if ( index === elements.length - 1 && plugin.settings.loopAtEnd !== true ) {
 					$( '#swipebox-next' ).addClass( 'disabled' );
 				}
+				
+				if ( plugin.settings.afterSetSlide ) {
+					plugin.settings.afterSetSlide( index );
+				}				
 			},
 
 			/**
