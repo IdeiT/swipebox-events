@@ -84,3 +84,4 @@ I want to keep this plugin as simple as possible. I won't merge pull requests fo
 If you want to submit a pull request please be sure to grunt the whole thing (mostly jshintrc validation and minified file) and send me a demo URL. Also, please comment your code.
 
 Thanks for your understanding and thank you all for your helpful support!
+
