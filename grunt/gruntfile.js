@@ -93,7 +93,7 @@ module.exports = function(grunt) {
 		uglify: {
 
 			options:{
-				banner : '/*! Swipebox v<%= version %> | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */\n'
+				banner : '/*! Swipebox v<%= version %> | IdeiT | MIT License | github.com/IdeiT/swipebox-events */\n'
 			},
 
 			admin: {
