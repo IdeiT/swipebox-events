@@ -1,7 +1,7 @@
 {
   "name": "grunt-swipebox-events",
   "version": "1.5.0",
-  "description": "A touchable jQuery lightbox",
+  "description": "A touchable jQuery lightbox with events",
   "repository": {
     "type": "git",
     "url": "git://github.com/IdeiT/swipebox-events.git"

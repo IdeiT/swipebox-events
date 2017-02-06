@@ -84,7 +84,8 @@ module.exports = function(grunt) {
 		// chech our JS
 		jshint: {
 			options : {
-				jshintrc : '.jshintrc'
+				jshintrc : '.jshintrc',
+				reporterOutput: ''
 			},
 			all: [ '../src/js/jquery.swipebox.js' ]
 		},
@@ -147,7 +148,7 @@ module.exports = function(grunt) {
 		'jshint',
 		'uglify',
 		'sass:demo',
-		'notify:dist'
+		//'notify:dist'
 	] );
 
 	/**
