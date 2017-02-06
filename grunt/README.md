@@ -1,7 +1,7 @@
 swipebox
 ===
 
-A touchable jQuery lightbox
+A touchable jQuery lightbox with events
 
 ---
 

@@ -15,6 +15,7 @@ Swipebox is a jQuery "lightbox" plugin for desktop, mobile and tablet.
 - Retina support for UI icons
 - Easy CSS customization
 - Video, Images and Inline content
+- Events for interact with plugin
 
 ###Compatibility
 
@@ -76,12 +77,4 @@ toggleClassOnLoad: '' // CSS class that can be toggled when the slide will be lo
 useSVG: true
 afterSetSlide: function(){}, // called after moving next/previous slide
 ```
-
-###Pull Requests
-
-I want to keep this plugin as simple as possible. I won't merge pull requests for additional features such as download buttons, social like buttons, IE8 compatibility etc... But feel free to fork the project and customize it to suit to your needs. Most wanted PR are for bug fixes. Also, a future improvement will be to allow zoom on touchable devices.
-
-If you want to submit a pull request please be sure to grunt the whole thing (mostly jshintrc validation and minified file) and send me a demo URL. Also, please comment your code.
-
-Thanks for your understanding and thank you all for your helpful support!
 
